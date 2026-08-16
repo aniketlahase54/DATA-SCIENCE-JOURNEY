@@ -1,0 +1,207 @@
+# 1. Check Positive / Negative / Zero
+
+number = 10
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+
+# 2. Even / Odd
+
+number = 7
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+# 3. Pass / Fail
+
+marks = 65
+
+if marks >= 40:
+    print("Pass")
+else:
+    print("Fail")
+
+
+# 4. Grade System
+
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+elif marks >= 40:
+    print("Grade D")
+else:
+    print("Grade F")
+
+
+# 5. Age Classification
+
+age = 25
+
+if age <= 12:
+    print("Child")
+elif age <= 19:
+    print("Teenager")
+elif age <= 59:
+    print("Adult")
+else:
+    print("Senior Citizen")
+
+
+# 6. Temperature Classification
+
+temperature = 32
+
+if temperature < 10:
+    print("Cold")
+elif temperature <= 25:
+    print("Moderate")
+elif temperature <= 35:
+    print("Warm")
+else:
+    print("Hot")
+
+
+# 7. Salary Classification
+
+salary = 70000
+
+if salary < 20000:
+    print("Low Salary")
+elif salary <= 50000:
+    print("Medium Salary")
+elif salary <= 100000:
+    print("High Salary")
+else:
+    print("Very High Salary")
+
+
+# 8. Voting Eligibility
+
+age = 20
+
+if age >= 18:
+    print("Eligible to Vote")
+else:
+    print("Not Eligible to Vote")
+
+
+# 9. Largest of Two Numbers
+
+a = 20
+b = 15
+
+if a > b:
+    print("A is Greater")
+elif b > a:
+    print("B is Greater")
+else:
+    print("Both are Equal")
+
+
+# 10. Largest of Three Numbers
+
+a = 10
+b = 25
+c = 15
+
+if a >= b and a >= c:
+    print("A is Largest")
+elif b >= a and b >= c:
+    print("B is Largest")
+else:
+    print("C is Largest")
+
+
+# 11. Traffic Signal
+
+signal = "red"
+
+if signal == "red":
+    print("STOP")
+elif signal == "yellow":
+    print("WAIT")
+elif signal == "green":
+    print("GO")
+else:
+    print("Invalid Signal")
+
+
+# 12. Day Number
+
+day = 3
+
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Sunday")
+else:
+    print("Invalid Day")
+
+
+# 13. Simple Calculator
+
+a = 20
+b = 5
+operation = "+"
+
+if operation == "+":
+    print(a + b)
+elif operation == "-":
+    print(a - b)
+elif operation == "*":
+    print(a * b)
+elif operation == "/":
+    print(a / b)
+else:
+    print("Invalid Operation")
+
+
+# 14. Discount System
+
+amount = 7500
+
+if amount >= 10000:
+    print("20% Discount")
+elif amount >= 5000:
+    print("10% Discount")
+elif amount >= 1000:
+    print("5% Discount")
+else:
+    print("No Discount")
+
+
+# 15. Number Classification
+
+number = -8
+
+if number > 0 and number % 2 == 0:
+    print("Positive Even")
+elif number > 0:
+    print("Positive Odd")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
