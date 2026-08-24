@@ -132,5 +132,6 @@ class student(preson):
         super().display()
         print("Roll No:",self.roll_no)
 
+
 s1 = student("Aniket",101)
 s1.display()                   
