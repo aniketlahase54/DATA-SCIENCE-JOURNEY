@@ -30,3 +30,8 @@ file.close()
 #Delete File
 import os 
 os.remove("demo.txt")
+
+#Using with Statement (Best Practice)
+with open("demo.txt","r") as file:
+    data = file.read()
+    print(data)
